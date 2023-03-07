@@ -1,0 +1,15 @@
+.redborder {
+    border: solid 4px red;
+}
+.img-responsive {
+    max-height: 350px;
+}
+
+.card:hover {
+    background-color:rgb(111, 111, 230);
+    border : solid 3px rgb(251, 165, 5);
+    color: white;
+    opacity:0.70;
+    transition: all 1s;
+   -webkit-transition: all 1s;
+}

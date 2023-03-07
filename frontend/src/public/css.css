@@ -1,0 +1,58 @@
+* {
+  font-family: 'MADE TOMMY ', sans-serif;
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 600;
+ color: #ffc107;
+ font-size: 18px;
+}
+
+.img-similar {
+    max-height: 180px;
+}
+
+.notFoundImage {
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+/* Dark Mode */
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-white {
+    background-color: #fff;
+    color: #333;
+}
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+
